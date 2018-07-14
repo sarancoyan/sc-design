@@ -1,0 +1,178 @@
+/***base styles***/
+body {
+    font-family: 'Raleway', sans-serif;
+    }
+
+/***grid***/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+  }
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+ .third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+  }
+
+  /***header***/
+header {
+    height: 500px;
+    background-image: url("../img/hero.png");
+    background-size: cover;
+    padding: 275px 0 0 0;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: #daa49a;
+    text-align: center;
+}
+header h2 {
+    font-size: 37px;
+    color: #d8dbe2;
+    text-align: center;
+}
+nav {
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 22%;
+}
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+        
+}
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d8dbe2;
+    font-size: 20px;
+    padding-left: 75px;
+    display: inline-block;
+}
+/***portfolio***/
+#portfolio {
+    background-color: #d8dbe2;
+    height: 835px;
+}
+#portfolio .full-width {
+    padding: 30px;
+}
+#portfolio .half-width {
+    padding: 5px 40px;
+}
+
+#portfolio h3 {
+    color: #373f51;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#portfolio img.portfolio-img {
+    width: 450px;
+    margin: 40px 200px;
+}
+#portfolio h4 {
+    color: #373f51;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 75px;
+}
+#portfolio h5 {
+    color: #373f51;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 75px;
+}
+#portfolio p {
+    color: #373f51;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 75px;
+}
+/***about***/
+#about {
+    background-color: #A9BCD0;
+    height:600px;
+}
+#about .full-width {
+    padding: 30px;
+}
+
+#about h3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}   
+#about img#about-photo {
+    width: 380px;
+    border: #373f51 7px solid;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+#about h5 {
+    color: #373f51;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+#about p {
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/***contact***/
+#contact {
+    background-color: #373f51;
+    height: 400px;
+}
+#contact .full-width {
+    padding: 30px;
+
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    padding-left: 30px;
+}
+#contact a {
+    text-decoration: none;
+}
+#contact h3 {
+    color: #A9BCD0;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+  }  
+  #contact h4 {
+    color: #A9BCD0;
+    font-size: 20px;
+    text-align: center;
+  }
+  #contact p {
+    color:#A9BCD0;
+    font-size: 17px;
+    text-align: center;
+  }
